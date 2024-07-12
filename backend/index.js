@@ -7,7 +7,7 @@ import { handler as ssrHandler } from "../dist/server/entry.mjs";
 
 const app = express();
 
-const port = process.env.PORT || 4321;
+const port = process.env.PORT || 4322;
 
 const base = "/";
 
