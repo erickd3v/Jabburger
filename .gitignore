@@ -28,3 +28,13 @@ pnpm-debug.log*
 
 # package-lock.json
 package-lock.json
+
+# pnpm-lock.yaml
+pnpm-lock.yaml
+
+# Runtime data
+pids
+*.pid
+
+# Coverage directory
+coverage/
