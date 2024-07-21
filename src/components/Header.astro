@@ -1,0 +1,17 @@
+---
+import Image from "./Img.astro";
+import Nav from "./Nav.astro";
+---
+
+<header
+  class="flex justify-between pt-4 bg-[url('img/bg.png')] bg-contain bg-no-repeat h-[100vh]"
+>
+  <!-- <Nav /> -->
+  <picture class="z-10 flex pl-4 gap-4 h-fit">
+    <Image src="img/burger.svg" alt="burger" classImg="size-6 m-auto" />
+    <Image src="img/logo.jpg" alt="logo" classImg="rounded-full size-9" />
+  </picture>
+  <picture class="bg-white size-[30px] rounded-full z-10 mr-4">
+    <Image src="img/user.png" alt="user" classImg="objet-contain" />
+  </picture>
+</header>
